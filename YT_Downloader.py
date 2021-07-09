@@ -9,7 +9,7 @@ print("Title : ",yt.title)
 print("Total number of views : ",yt.views)
 print("Total length of the video : ",yt.length)
 print("Rating of Video :",yt.rating)
-print("Published Date :",yt.published_date)
+print("Published Date :",yt.publish_date)
 
 #Getting the possible highest resolution
 ys=yt.streams.get_highest_resolution()
